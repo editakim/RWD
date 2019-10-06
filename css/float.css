@@ -7,11 +7,9 @@
   background-color: silver;
 }
 
-
 .header, .navigation, .main, .footer {
   width: 100%;
 }
-
 
 .header {
   background-color: yellowgreen;
@@ -44,7 +42,6 @@
 .twitter {
   background-color: aqua;
 }
-
 
 .footer {
   background-color: pink;
