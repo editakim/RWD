@@ -80,7 +80,6 @@ legend, .ally-hidden{
 .member a{
  display: inline-block;
  padding: 0.5em 0;
- margin-left: 1em;
 }
 
 /*공통 로고*/
@@ -93,7 +92,7 @@ legend, .ally-hidden{
   order: 1;
 }
 input[type="search"], .btn-search{
-
+vertical-align: top;
 }
 input[type="search"]{
   border: 1px solid #aaa;
@@ -174,12 +173,13 @@ input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
     margin-bottom: 0.5em;
   }
   /*모바일 검색*/
+
   .search fieldset {
     font-size: 0;
   }
 
   input[type="search"]{
-    width: calc(100% - 4.5em);
+    width: calc(100% - 4.5rem);
     font-size: 1.6rem;
   }
   .btn-search{
@@ -199,7 +199,7 @@ input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: url(./images/btn_search.png) no-repeat 0 0 / cover;
+    background: url(./images/btn_search.png) no-repeat 0 0 / cover;
   }
 }
 
